@@ -1,0 +1,17 @@
+Name in 'contract MyToken' has to be same as this smartContract file name which is MyToken.sol
+If you want to see what all contracts you need to copy n paste for deploying sm.contr. on local network then get verified n published ur smr. contr. and see verified contract on etherscan/contract...
+
+Web3.toWei(4500, "ether") is correct way of saying
+
+Metamask after confirmation from that private key just brings me default account i.e. account 1
+
+# Gas Estimation Execution Reverted (ERC20: transfer amount exceeds allowance)
+    # https://ethereum.stackexchange.com/questions/106722/gas-estimation-execution-reverted-erc20-transfer-amount-exceeds-allowance
+
+# 
+ - ({"from":get_account(), "value": Web3.toWei(12, "ether"),"gas_limit": 10000000000000000, "allow_revert": True}).estimateGas(get_account())
+
+# ethereum unit converter
+ https://eth-converter.com/extended-converter.html
+
+# can read about ERC and IERC and ERC20PresetMinterPauser on openZeppelin

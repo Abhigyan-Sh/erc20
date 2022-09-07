@@ -1,0 +1,25 @@
+dependencies:
+ - OpenZeppelin/openzeppelin-contracts@4.2.0
+
+compiler:
+  solc:
+    remappings:
+      '@openZeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0'
+
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+networks:
+  development:
+    verify: False
+  ganache-cli:
+    verify: False
+  rinkeby:
+    account2: '0xF3a3bAeaC912841D7DE6afED3292855C20dcab25'
+    verify: True
+  kovan:
+    verify: True
+  ropsten:
+    verify: True
